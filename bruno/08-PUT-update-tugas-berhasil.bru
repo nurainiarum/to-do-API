@@ -6,6 +6,8 @@ meta {
 
 put {
   url: {{base_url}}/tasks/{{task_id}}
+  body: json
+  auth: none
 }
 
 headers {
@@ -17,8 +19,4 @@ body:json {
     "status": "in-progress",
     "description": "Sudah mulai dikerjakan bersama anggota kelompok"
   }
-}
-
-docs {
-  Pastikan task_id sudah diisi di environment.
 }

@@ -1,0 +1,20 @@
+meta {
+  name: 05 - POST Gagal - Priority Tidak Valid (400)
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{base_url}}/tasks
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "title": "Tugas dengan priority salah",
+    "priority": "ultra"
+  }
+}

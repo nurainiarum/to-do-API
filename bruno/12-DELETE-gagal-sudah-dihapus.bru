@@ -1,0 +1,11 @@
+meta {
+  name: 12 - DELETE Gagal - Sudah Dihapus (404)
+  type: http
+  seq: 12
+}
+
+delete {
+  url: {{base_url}}/tasks/{{task_id}}
+}
+
+# Jalankan setelah request 11 — task sudah dihapus, harusnya 404

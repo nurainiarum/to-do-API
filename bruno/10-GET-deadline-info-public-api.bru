@@ -1,0 +1,13 @@
+meta {
+  name: 10 - GET Deadline Info + Hari Libur (Public API)
+  type: http
+  seq: 10
+}
+
+get {
+  url: {{base_url}}/tasks/{{task_id}}/deadline-info
+}
+
+# Endpoint ini memanggil Nager.Date Public Holiday API
+# Mengembalikan info apakah deadline jatuh di hari libur nasional Indonesia
+# Pastikan task_id sudah diisi di environment

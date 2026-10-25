@@ -1,0 +1,23 @@
+meta {
+  name: 03 - POST Buat Tugas Baru (Berhasil)
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{base_url}}/tasks
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Buat laporan PDF proyek kelompok Sub-CPMK 4",
+    "priority": "high",
+    "deadline": "2026-10-29",
+    "tags": ["laporan", "kuliah", "kelompok"]
+  }
+}

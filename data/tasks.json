@@ -1,0 +1,32 @@
+[
+  {
+    "id": "task-1792912302527-438",
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
+    "priority": "high",
+    "status": "in-progress",
+    "deadline": "2026-10-29",
+    "tags": [
+      "laporan",
+      "kuliah",
+      "kelompok"
+    ],
+    "createdAt": "2026-10-25T07:11:42.527Z",
+    "updatedAt": "2026-10-25T07:11:42.561Z"
+  },
+  {
+    "id": "task-1792913222112-281",
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
+    "priority": "high",
+    "status": "in-progress",
+    "deadline": "2026-10-29",
+    "tags": [
+      "laporan",
+      "kuliah",
+      "kelompok"
+    ],
+    "createdAt": "2026-10-25T07:27:02.113Z",
+    "updatedAt": "2026-10-25T07:27:04.616Z"
+  }
+]

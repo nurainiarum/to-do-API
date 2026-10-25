@@ -1,0 +1,20 @@
+meta {
+  name: 04 - POST Gagal - Tanpa Title (400)
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{base_url}}/tasks
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "description": "Tugas tanpa judul",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,22 @@
+meta {
+  name: 08 - PUT Update Tugas (Berhasil)
+  type: http
+  seq: 8
+}
+
+put {
+  url: {{base_url}}/tasks/{{task_id}}
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "status": "in-progress",
+    "description": "Sudah mulai dikerjakan bersama anggota kelompok"
+  }
+}
+
+# Pastikan task_id sudah diisi di environment

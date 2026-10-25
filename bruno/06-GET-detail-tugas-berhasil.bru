@@ -1,0 +1,12 @@
+meta {
+  name: 06 - GET Detail Tugas by ID (Berhasil)
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{base_url}}/tasks/{{task_id}}
+}
+
+# Isi task_id di environment "local" setelah POST request berhasil
+# Salin id dari response POST, paste ke environments > local > task_id

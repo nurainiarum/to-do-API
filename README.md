@@ -13,10 +13,12 @@
 
 ```
 todo-api/
-├── server.js        ← API server (module http, tanpa framework)
-├── client.js        ← Client console (memanggil API via HTTP)
+├── server.js                            ← API server (module http, tanpa framework)
+├── client.js                            ← Client console (memanggil API via HTTP)
+├── Todo_API.postman_collection.json     ← Koleksi Postman 14 skenario uji lengkap
+├── bruno/                               ← Koleksi pengujian Bruno
 ├── data/
-│   └── tasks.json   ← Penyimpanan persisten (module fs)
+│   └── tasks.json                       ← Penyimpanan persisten (module fs)
 └── README.md
 ```
 
@@ -24,12 +26,19 @@ todo-api/
 
 ## Cara Menjalankan
 
-**1. Jalankan server (terminal pertama):**
+**1. Jalankan server (terminal):**
 ```bash
 node server.js
 ```
 
-**2. Jalankan client demo (terminal kedua):**
+**2. Pengujian dengan Postman:**
+1. Buka aplikasi **Postman**.
+2. Klik tombol **Import** (di kiri atas).
+3. Pilih file `Todo_API.postman_collection.json`.
+4. Koleksi **Todo API — Rekayasa API (Kelompok 1)** akan muncul dengan 14 request siap pakai.
+5. Klik dan kirim (**Send**) setiap request secara berurutan untuk keperluan screenshot laporan!
+
+**3. Pengujian dengan Client Console:**
 ```bash
 node client.js
 ```

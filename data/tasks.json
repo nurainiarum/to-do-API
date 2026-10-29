@@ -1,10 +1,10 @@
 [
   {
-    "id": "task-1792912302527-438",
+    "id": "task-utama-kelompok1",
     "title": "Kerjakan laporan Rekayasa API",
-    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
+    "description": "Buat laporan PDF proyek kelompok Sub-CPMK 4",
     "priority": "high",
-    "status": "in-progress",
+    "status": "pending",
     "deadline": "2026-10-29",
     "tags": [
       "laporan",
@@ -12,21 +12,20 @@
       "kelompok"
     ],
     "createdAt": "2026-10-25T07:11:42.527Z",
-    "updatedAt": "2026-10-25T07:11:42.561Z"
+    "updatedAt": "2026-10-25T07:11:42.527Z"
   },
   {
-    "id": "task-1792913222112-281",
-    "title": "Kerjakan laporan Rekayasa API",
-    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
-    "priority": "high",
-    "status": "in-progress",
-    "deadline": "2026-10-29",
+    "id": "task-hapus-kelompok1",
+    "title": "Tugas sementara untuk pengujian delete",
+    "description": "Tugas ini disiapkan untuk diuji hapus pada skenario 11 dan 12",
+    "priority": "low",
+    "status": "pending",
+    "deadline": "2026-11-15",
     "tags": [
-      "laporan",
-      "kuliah",
-      "kelompok"
+      "testing",
+      "delete"
     ],
-    "createdAt": "2026-10-25T07:27:02.113Z",
-    "updatedAt": "2026-10-25T07:27:04.616Z"
+    "createdAt": "2026-10-25T07:11:42.527Z",
+    "updatedAt": "2026-10-25T07:11:42.527Z"
   }
 ]

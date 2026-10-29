@@ -13,7 +13,12 @@
     },
     {
       "key": "task_id",
-      "value": "task-1792912302527-438",
+      "value": "task-utama-kelompok1",
+      "type": "string"
+    },
+    {
+      "key": "task_id_delete",
+      "value": "task-hapus-kelompok1",
       "type": "string"
     }
   ],
@@ -413,13 +418,13 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/tasks/{{task_id}}",
+          "raw": "{{base_url}}/tasks/{{task_id_delete}}",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "tasks",
-            "{{task_id}}"
+            "{{task_id_delete}}"
           ]
         }
       },
@@ -443,13 +448,13 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/tasks/{{task_id}}",
+          "raw": "{{base_url}}/tasks/{{task_id_delete}}",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "tasks",
-            "{{task_id}}"
+            "{{task_id_delete}}"
           ]
         }
       },

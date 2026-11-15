@@ -30,7 +30,7 @@ test('3. Validasi struktur field wajib pada setiap tugas (task)', () => {
 test('4. Validasi aturan logika: penolakan pembuatan task tanpa title', () => {
   const taskTanpaTitle = { description: 'Tugas coba tanpa judul', priority: 'medium' };
   const isValid = Boolean(taskTanpaTitle.title && taskTanpaTitle.title.trim() !== '');
-  assert.equal(isValid, false, 'Task tanpa title tidak boleh valid');
+  assert.equal(isValid, true, 'Task tanpa title tidak boleh valid');
 });
 
 test('5. Validasi nilai status task sesuai dengan enum yang diizinkan', () => {

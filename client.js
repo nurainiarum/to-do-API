@@ -4,7 +4,7 @@
 // 2. Muh. Zarhan Ali (F5512520087)
 // 3. Dimas Maulana Yusuf (F5512520085)
 // 4. Sean Christian Korompu (F5512520095)
-// CLIENT CONSOLE — Manajemen Tugas (Todo) API
+// CLIENT CONSOLE — Manajemen Tugas (To-do) API
 // Program ini memanggil API kelompok via HTTP (module http)
 // Jalankan: node client.js
 // Pastikan server sudah berjalan: node server.js

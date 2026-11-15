@@ -2,6 +2,51 @@
   {
     "id": "task-utama-kelompok1",
     "title": "Kerjakan laporan Rekayasa API",
+    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
+    "priority": "high",
+    "status": "in-progress",
+    "deadline": "2026-10-29",
+    "tags": [
+      "laporan",
+      "kuliah",
+      "kelompok"
+    ],
+    "createdAt": "2026-10-25T07:11:42.527Z",
+    "updatedAt": "2026-11-10T03:34:39.301Z"
+  },
+  {
+    "id": "task-1793271936166-472",
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
+    "priority": "high",
+    "status": "in-progress",
+    "deadline": "2026-10-29",
+    "tags": [
+      "laporan",
+      "kuliah",
+      "kelompok"
+    ],
+    "createdAt": "2026-10-29T11:05:36.167Z",
+    "updatedAt": "2026-10-29T11:05:36.251Z"
+  },
+  {
+    "id": "task-1793274936099-73",
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Sudah mulai dikerjakan bersama anggota kelompok",
+    "priority": "high",
+    "status": "in-progress",
+    "deadline": "2026-10-29",
+    "tags": [
+      "laporan",
+      "kuliah",
+      "kelompok"
+    ],
+    "createdAt": "2026-10-29T11:55:36.100Z",
+    "updatedAt": "2026-10-29T11:55:36.210Z"
+  },
+  {
+    "id": "task-1793275854921-870",
+    "title": "Kerjakan laporan Rekayasa API",
     "description": "Buat laporan PDF proyek kelompok Sub-CPMK 4",
     "priority": "high",
     "status": "pending",
@@ -11,21 +56,37 @@
       "kuliah",
       "kelompok"
     ],
-    "createdAt": "2026-10-25T07:11:42.527Z",
-    "updatedAt": "2026-10-25T07:11:42.527Z"
+    "createdAt": "2026-10-29T12:10:54.921Z",
+    "updatedAt": "2026-10-29T12:10:54.921Z"
   },
   {
-    "id": "task-hapus-kelompok1",
-    "title": "Tugas sementara untuk pengujian delete",
-    "description": "Tugas ini disiapkan untuk diuji hapus pada skenario 11 dan 12",
-    "priority": "low",
+    "id": "task-1794280386667-705",
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Buat laporan PDF proyek kelompok Sub-CPMK 4",
+    "priority": "high",
     "status": "pending",
-    "deadline": "2026-11-15",
+    "deadline": "2026-10-29",
     "tags": [
-      "testing",
-      "delete"
+      "laporan",
+      "kuliah",
+      "kelompok"
     ],
-    "createdAt": "2026-10-25T07:11:42.527Z",
-    "updatedAt": "2026-10-25T07:11:42.527Z"
+    "createdAt": "2026-11-10T03:13:06.668Z",
+    "updatedAt": "2026-11-10T03:13:06.668Z"
+  },
+  {
+    "id": "task-1794281855951-316",
+    "title": "Kerjakan laporan Rekayasa API",
+    "description": "Buat laporan PDF proyek kelompok Sub-CPMK 4",
+    "priority": "high",
+    "status": "pending",
+    "deadline": "2026-10-29",
+    "tags": [
+      "laporan",
+      "kuliah",
+      "kelompok"
+    ],
+    "createdAt": "2026-11-10T03:37:35.951Z",
+    "updatedAt": "2026-11-10T03:37:35.951Z"
   }
 ]

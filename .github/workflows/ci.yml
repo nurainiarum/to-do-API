@@ -1,12 +1,10 @@
 name: CI
-
-    on:
+on:
       push:
         branches: [main]
       pull_request:
         branches: [main]
-
-    jobs:
+jobs:
       build-and-test:
         runs-on: ubuntu-latest
 
